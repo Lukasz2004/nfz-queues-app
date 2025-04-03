@@ -4,7 +4,7 @@ An application that allows users to retrieve data on medical facilities register
 The project was developed as part of the "Programming Languages" laboratory classes at Wrocław University of Science and Technology (Politechnika Wrocławska), winter semester 2024/2025.
 <br> <br> 
 <i>*The application is not affiliated with Poland’s National Health Fund (NFZ). It only utilizes the public API provided by NFZ.</i>
-<h3>Build with:</h3>
+<h3>Built with:</h3>
 <ul>
   <li>Java, ver. 17</li>
   <li>JavaFX, ver. 21.0.6</li>
