@@ -223,17 +223,16 @@ public class HomeViewController extends Application implements Initializable{
 
     public void flashButton()
     {
-        System.out.println("Flash button pressed");
         final Animation animation = new Transition() {
 
             {
-                setCycleDuration(Duration.millis(1000));
-                setInterpolator(Interpolator.EASE_OUT);
+                setCycleDuration(Duration.millis(100));
+                setInterpolator(Interpolator.EASE_BOTH);
             }
             @Override
             protected void interpolate(double frac) {
-                Color vColor = new Color(1, 0, 0, 1 - frac);
-                askButton.setBackground(new Background(new BackgroundFill(vColor, CornerRadii.EMPTY, Insets.EMPTY)));
+                Color vColor = new Color(0.576-(0.4*frac), 0.631-(0.4*frac), 1, 1);
+                askButton.setBackground(new Background(new BackgroundFill(vColor, new CornerRadii(6), Insets.EMPTY)));
             }
         };
         animation.play();

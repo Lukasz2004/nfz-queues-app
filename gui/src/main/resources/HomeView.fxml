@@ -120,7 +120,7 @@
                   <Font name="Leelawadee UI" size="24.0" />
                </font>
             </Label>
-            <Button fx:id="languageButton" maxHeight="25.0" maxWidth="40.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="40.0" style="-fx-border-width: 2; -fx-border-color: grey; -fx-border-insets: -1;" HBox.hgrow="NEVER">
+            <Button fx:id="languageButton" maxHeight="25.0" maxWidth="40.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="40.0" style="-fx-border-width: 2; -fx-border-color: grey; -fx-border-insets: -1;" visible="false" HBox.hgrow="NEVER">
                <HBox.margin>
                   <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                </HBox.margin>
