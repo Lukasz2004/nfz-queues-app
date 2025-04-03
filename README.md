@@ -12,14 +12,17 @@ The project was developed as part of the "Programming Languages" laboratory clas
 </ul>
 <h2>Getting Started</h2>
 <h3>Prerequisites</h3>
+<ul>
+  <li>Java, ver. 17</li>
+</ul>
 <h3>Installation and running the App</h3>
 <ul>
-  <li>Packaged version:
+  <li><del>Packaged version:</del>  Will be avaible after full version release<del>
   <ul>
       <li>Install the newest .jar file from the „Releases” section of this GitHub page.</li>
       <li>Type run</li>
-  </ul>    
-  
+  </ul> </li>
+  </del>
   <li>You can also download the codebase and compile the files Yourself:
   <ul>
       <li>Run „HomeViewController.java” class to open up the GUI.</li>
@@ -29,4 +32,5 @@ The project was developed as part of the "Programming Languages" laboratory clas
 <h2>Current plans for the project:</h2>
 <ul>
   <li>English localization of the app</li>
+  <li>Improving the UI</li>
 </ul>
